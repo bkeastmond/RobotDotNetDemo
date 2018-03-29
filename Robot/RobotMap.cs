@@ -19,5 +19,25 @@ namespace Robot
         // number and the module. For example you with a rangefinder:
         // public static int rangefinderPort = 1;
         // public static int rangefinderModule = 1;
+
+        public class DriveTrain
+        {
+            public class Motors
+            {
+                public class Left
+                {
+                    public const int Front = 0;
+                    public const int Rear = 1;
+                }
+
+                public class Right
+                {
+                    public const int Front = 2;
+                    public const int Rear = 3;
+                }
+            }
+        }
+
+       
     }
 }

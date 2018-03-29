@@ -73,9 +73,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\DrivesWithJoystick.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Robot.cs" />
     <Compile Include="RobotMap.cs" />
+    <Compile Include="Subsystems\DriveTrain.cs" />
     <Compile Include="Subsystems\ExampleSubsystem.cs" />
     <Compile Include="Commands\ExampleCommand.cs" />
     <Compile Include="Commands\ExampleAutonomousCommand.cs" />
